@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- page on -->
-    <div class="page">
+    <div class="root">
       <!-- header on -->
       <header class="header">
         <img
@@ -34,9 +34,9 @@
       <main class="content">
         <!-- description on -->
         <section class="description">
-          <div class="two-columns">
+          <article class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
-            <article
+            <div
               aria-label="Главные проблемы в обучении"
               class="two-columns__main-text"
             >
@@ -57,8 +57,8 @@
                 обучению, сделать его эффективным и захватывающим. Эти же
                 техники применяются на примере обучения в Практикуме.
               </p>
-            </article>
-          </div>
+            </div>
+          </article>
         </section>
         <!-- description off -->
         <!-- techniques on -->
@@ -72,9 +72,9 @@
                 alt="Два вида внимания"
                 class="cards__image"
               />
-              <h3 class="cards__title">Два вида внимания</h3>
+              <h4 class="cards__title">Два вида внимания</h4>
               <p class="cards__description">
-                Глубокие знания возникают, если чередовать сфокусированное и
+                Глубокие знания возникают, если чередовать сфокусированное 4
                 рассеянное мышление.
               </p>
             </li>
@@ -84,7 +84,7 @@
                 alt="Рекал"
                 class="cards__image"
               />
-              <h3 class="cards__title">Recall</h3>
+              <h4 class="cards__title">Recall</h4>
               <p class="cards__description">
                 Вспоминайте изученное — это позволит соединить разрозненные
                 порции памяти.
@@ -96,7 +96,7 @@
                 alt="Интерливинг"
                 class="cards__image"
               />
-              <h3 class="cards__title">Интерливинг</h3>
+              <h4 class="cards__title">Интерливинг</h4>
               <p class="cards__description">
                 Изучайте несколько навыков одновременно, они обогащают друг
                 друга.
@@ -108,7 +108,7 @@
                 alt="Вопросы"
                 class="cards__image"
               />
-              <h3 class="cards__title">Вопросы</h3>
+              <h4 class="cards__title">Вопросы</h4>
               <p class="cards__description">
                 Слушая преподавателя, придумывайте хороший вопрос, который вас
                 действительно волнует.
@@ -120,7 +120,7 @@
                 alt="Иллюзия компетентности"
                 class="cards__image"
               />
-              <h3 class="cards__title">Иллюзия компетентности</h3>
+              <h4 class="cards__title">Иллюзия компетентности</h4>
               <p class="cards__description">
                 Повторите про себя, запишите, расскажите другу: вам только
                 кажется, что вы владеете новой темой.
@@ -136,15 +136,11 @@
           <div class="video__iframes">
             <iframe
               allowfullscreen
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed?v=arj7oStGLkU"
               class="video__iframe"
             ></iframe>
             <iframe
               allowfullscreen
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed?v=5MgBikgcWnY"
               class="video__iframe"
             ></iframe>
@@ -153,9 +149,9 @@
         <!-- video off -->
         <!-- oakley on -->
         <section class="oakley">
-          <div class="two-columns">
+          <article class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
-            <article
+            <div
               aria-label="Главные проблемы в обучении"
               class="two-columns__main-text"
             >
@@ -169,8 +165,8 @@
                 даётся», ваши добытые трудом знания гораздо глубже, чем у тех,
                 кому всё ясно с первого взгляда.
               </p>
-            </article>
-          </div>
+            </div>
+          </article>
         </section>
         <!-- oakley off -->
         <!-- feynman on -->
@@ -191,29 +187,29 @@
           <h3 class="section-subtitle">Про учёбу и мозг</h3>
           <ul class="table">
             <li class="table__cell">
-              <h3 class="table__heading">86 миллиардов</h3>
+              <h4 class="table__heading">86 миллиардов</h4>
               <p class="table__text">Число нейронов в мозге человека</p>
             </li>
             <li class="table__cell">
-              <h3 class="table__heading">2.1 миллиарда</h3>
+              <h4 class="table__heading">2.1 миллиарда</h4>
               <p class="table__text">
                 Число нуждающихся в повышении квалификации
               </p>
               <p class="table__text">Всемирный Банк, 2017</p>
             </li>
             <li class="table__cell">
-              <h3 class="table__heading">1000 терабайт</h3>
+              <h4 class="table__heading">1000 терабайт</h4>
               <p class="table__text">Число нейронов в мозге человека</p>
             </li>
             <li class="table__cell">
-              <h3 class="table__heading">500 триллионов</h3>
+              <h4 class="table__heading">500 триллионов</h4>
               <p class="table__text">
                 Число ответственных за обучение нервных синапсов у взрослого
                 человека
               </p>
             </li>
             <li class="table__cell">
-              <h3 class="table__heading">420 миллионов</h3>
+              <h4 class="table__heading">420 миллионов</h4>
               <p class="table__text">
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
@@ -221,15 +217,15 @@
               <p class="table__text">Всемирный Банк, 2017</p>
             </li>
             <li class="table__cell">
-              <h3 class="table__heading">17–20 лет</h3>
+              <h4 class="table__heading">17–20 лет</h4>
               <p class="table__text">Пик обучаемости</p>
             </li>
             <li class="table__cell">
-              <h3 class="table__heading">1885 год</h3>
+              <h4 class="table__heading">1885 год</h4>
               <p class="table__text">Открытие кривой забывания</p>
             </li>
             <li class="table__cell">
-              <h3 class="table__heading">1889 год</h3>
+              <h4 class="table__heading">1889 год</h4>
               <p class="table__text">Открытие условного рефлекса</p>
             </li>
           </ul>
@@ -270,61 +266,61 @@
           </h3>
           <div class="table table_theme_dark">
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">1</h3>
+              <h4 class="table__heading table__heading_theme_dark">1</h4>
               <p class="table__text table__text_theme_dark">
                 Выберите привлекательный проект.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">2</h3>
+              <h4 class="table__heading table__heading_theme_dark">2</h4>
               <p class="table__text table__text_theme_dark">
                 Сосредоточьтесь на каком-то одном навыке.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">3</h3>
+              <h4 class="table__heading table__heading_theme_dark">3</h4>
               <p class="table__text table__text_theme_dark">
                 Определите целевой уровень мастерства.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">4</h3>
+              <h4 class="table__heading table__heading_theme_dark">4</h4>
               <p class="table__text table__text_theme_dark">
                 Разбейте навык на элементы.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">5</h3>
+              <h4 class="table__heading table__heading_theme_dark">5</h4>
               <p class="table__text table__text_theme_dark">
                 Приготовьте всё необходимое для занятий.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">6</h3>
+              <h4 class="table__heading table__heading_theme_dark">6</h4>
               <p class="table__text table__text_theme_dark">
                 Устраните препятствия для занятий.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">7</h3>
+              <h4 class="table__heading table__heading_theme_dark">7</h4>
               <p class="table__text table__text_theme_dark">
                 Выделите специальное время для занятий.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">8</h3>
+              <h4 class="table__heading table__heading_theme_dark">8</h4>
               <p class="table__text table__text_theme_dark">
                 Создайте быстрые петли обратной связи.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">9</h3>
+              <h4 class="table__heading table__heading_theme_dark">9</h4>
               <p class="table__text table__text_theme_dark">
                 Занимайтесь по расписанию, короткими интенсивными интервалами.
               </p>
             </div>
             <div class="table__cell table__cell_theme_dark">
-              <h3 class="table__heading table__heading_theme_dark">10</h3>
+              <h4 class="table__heading table__heading_theme_dark">10</h4>
               <p class="table__text table__text_theme_dark">
                 Уделяйте внимание количеству и скорости.
               </p>
