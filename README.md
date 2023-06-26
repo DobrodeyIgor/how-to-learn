@@ -8,7 +8,7 @@
 
 ## Проект
 
-- [Ссылка на проект](https://dobrodeyigor.github.io/how-to-learn-bootcamp/)
+- [Ссылка на проект](https://dobrodeyigor.github.io/how-to-learn/)
 
 ## СТЭК
 
